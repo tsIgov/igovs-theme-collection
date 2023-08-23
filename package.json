@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "name": "igovs-theme-collection",
+  "displayName": "Igov's Theme Collection",
+  "description": "A collection of VSCode skins that follow the same theme",
+  "icon": "images/icon.png",
+  "categories": [ "Themes" ],
+  "publisher": "ts-igov",
+  "author": {
+    "name": "Tsvetan Igov"
+  },
+  "pricing": "Free",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/vscode-wordcount.git"
+  },
+  "homepage": "https://github.com/microsoft/vscode-wordcount/blob/main/README.md",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Igov's Theme - Dracula",
+        "uiTheme": "vs-dark",
+        "path": "./output/dracula.json"
+      }
+    ]
+  }
+}

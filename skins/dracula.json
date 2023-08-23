@@ -1,0 +1,45 @@
+{
+	"$schema": "../schema.json",
+	"name": "Byteology - Dracula",
+	"type": "dark",
+
+	"editor-background-color": "#282a36",
+	"window-background-color": "#343746",
+	"border-color": "#44475a",
+	"foreground-color": "#f8f8f2",
+
+	"accent-color": "#7c60a3",
+	"accent-hover-color": "#747997",
+	"accent-foreground-color": "#f8f8f2",
+
+	"inserted-color": "#50fa7b",
+	"modified-color": "#f1fa8c",
+	"deleted-color": "#ff5555",
+
+	"focus-foreground-color": "#8be9fd",
+
+	"info-color": "#8be9fd",
+	"warning-color": "#ffb86c",
+	"error-color": "#ff5555",
+
+	"syntax-classes-color": "#f1fa8c",
+	"syntax-comments-color": "#6272a4",
+	"syntax-constants-color": "#50fa7b",
+	"syntax-fields-color": "#f8f8f2",
+	"syntax-interfaces-color": "#ffb86c",
+	"syntax-keywords-color": "#ff79c6",
+	"syntax-methods-color": "#8be9fd",
+	"syntax-operators-color": "#ff79c6",
+	"syntax-strings-color": "#50fa7b",
+	"syntax-text-color": "#f8f8f2",
+	"syntax-variables-color": "#bd93f9",
+
+	"terminal-black": "#44475a",
+	"terminal-red": "#ff5555",
+	"terminal-green": "#50fa7b",
+	"terminal-blue": "#6272a4",
+	"terminal-yellow": "#f1fa8c",
+	"terminal-magenta": "#ff79c6",
+	"terminal-cyan": "#8be9fd",
+	"terminal-white": "#f8f8f2"
+}

@@ -1,0 +1,515 @@
+{
+	"name": "{name}",
+	"type": "{type}",
+	"colors": {
+		"foreground": "{foreground-color}",
+		"focusBorder": "{accent-color}",
+		"selection.background": "{accent-color}",
+		"scrollbar.shadow": "{editor-background-color}",
+		"activityBar.foreground": "{accent-color}",
+		"activityBar.background": "{window-background-color}",
+		"activityBar.inactiveForeground": "{foreground-color}cc",
+		"activityBarBadge.foreground": "{accent-foreground-color}",
+		"activityBarBadge.background": "{accent-color}",
+		"activityBar.border": "{border-color}",
+		"activityBar.activeBackground": "{window-background-color}",
+		"sideBar.background": "{editor-background-color}",
+		"sideBar.foreground": "{foreground-color}",
+		"sideBarSectionHeader.background": "#00000000",
+		"sideBarSectionHeader.foreground": "{foreground-color}",
+		"sideBarSectionHeader.border": "#00000000",
+		"sideBarTitle.foreground": "{foreground-color}",
+		"sideBar.border": "{border-color}",
+		"list.inactiveSelectionBackground": "{accent-color}66",
+		"list.inactiveSelectionForeground": "{foreground-color}",
+		"list.hoverBackground": "{accent-color}66",
+		"list.hoverForeground": "{foreground-color}",
+		"list.activeSelectionBackground": "{accent-color}66",
+		"list.activeSelectionForeground": "{foreground-color}",
+		"tree.indentGuidesStroke": "{border-color}",
+		"list.dropBackground": "{accent-color}66",
+		"list.highlightForeground": "{focus-foreground-color}",
+		"list.focusBackground": "{accent-color}66",
+		"list.focusForeground": "{foreground-color}",
+		"listFilterWidget.background": "{window-background-color}",
+		"listFilterWidget.outline": "{accent-color}",
+		"listFilterWidget.noMatchesOutline": "{accent-color}",
+		"statusBar.foreground": "{foreground-color}",
+		"statusBar.background": "{window-background-color}",
+		"statusBarItem.hoverBackground": "{accent-color}66",
+		"statusBar.border": "{border-color}",
+		"statusBar.debuggingBackground": "{accent-color}",
+		"statusBar.debuggingForeground": "{accent-foreground-color}",
+		"statusBar.debuggingBorder": "{border-color}",
+		"statusBar.noFolderBackground": "{window-background-color}",
+		"statusBar.noFolderForeground": "{foreground-color}",
+		"statusBar.noFolderBorder": "{accent-color}",
+		"statusBarItem.remoteBackground": "{accent-color}",
+		"statusBarItem.remoteForeground": "{accent-foreground-color}",
+		"titleBar.activeBackground": "{window-background-color}",
+		"titleBar.activeForeground": "{foreground-color}",
+		"titleBar.inactiveBackground": "{editor-background-color}",
+		"titleBar.inactiveForeground": "{foreground-color}66",
+		"titleBar.border": "{border-color}",
+		"menubar.selectionForeground": "{foreground-color}",
+		"menubar.selectionBackground": "{accent-color}66",
+		"menubar.selectionBorder": "#00000000",
+		"menu.foreground": "{foreground-color}",
+		"menu.background": "{window-background-color}",
+		"menu.selectionForeground": "{foreground-color}",
+		"menu.selectionBackground": "{accent-color}66",
+		"menu.selectionBorder": "#00000000",
+		"menu.separatorBackground": "{border-color}",
+		"menu.border": "{accent-color}",
+		"button.background": "{accent-color}",
+		"button.foreground": "{accent-foreground-color}",
+		"button.hoverBackground": "{accent-hover-color}",
+		"button.secondaryForeground": "{foreground-color}",
+		"button.secondaryBackground": "{foreground-color}33",
+		"button.secondaryHoverBackground": "{accent-hover-color}",
+		"input.background": "{window-background-color}",
+		"input.border": "{accent-color}",
+		"input.foreground": "{foreground-color}",
+		"inputOption.activeBackground": "{accent-color}66",
+		"inputOption.activeBorder": "{accent-color}",
+		"inputOption.activeForeground": "{foreground-color}",
+		"input.placeholderForeground": "{foreground-color}cc",
+		"textLink.foreground": "{focus-foreground-color}",
+		"editor.background": "{editor-background-color}",
+		"editor.foreground": "{foreground-color}",
+		"editorLineNumber.foreground": "{foreground-color}cc",
+		"editorCursor.foreground": "{foreground-color}",
+		"editorCursor.background": "{window-background-color}",
+		"editor.selectionBackground": "{accent-color}66",
+		"editor.inactiveSelectionBackground": "{accent-color}66",
+		"editorWhitespace.foreground": "{foreground-color}33",
+		"editor.selectionHighlightBackground": "{accent-color}66",
+		"editor.selectionHighlightBorder": "#00000000",
+		"editor.findMatchBackground": "{accent-color}66",
+		"editor.findMatchBorder": "#00000000",
+		"editor.findMatchHighlightBackground": "{window-background-color}",
+		"editor.findMatchHighlightBorder": "{border-color}",
+		"editor.findRangeHighlightBackground": "{window-background-color}",
+		"editor.findRangeHighlightBorder": "#00000000",
+		"editor.rangeHighlightBackground": "{accent-color}66",
+		"editor.rangeHighlightBorder": "#00000000",
+		"editor.hoverHighlightBackground": "{accent-color}66",
+		"editor.wordHighlightStrongBackground": "{accent-color}66",
+		"editor.wordHighlightStrongBorder": "#00000000",
+		"editor.wordHighlightBackground": "{accent-color}66",
+		"editor.wordHighlightBorder": "#00000000",
+		"editor.lineHighlightBackground": "{window-background-color}",
+		"editor.lineHighlightBorder": "#00000000",
+		"editorLineNumber.activeForeground": "{foreground-color}",
+		"editorLink.activeForeground": "{focus-foreground-color}",
+		"editorIndentGuide.background1": "{border-color}",
+		"editorIndentGuide.activeBackground1": "{accent-color}",
+		"editorRuler.foreground": "{border-color}",
+		"editorBracketMatch.background": "{window-background-color}",
+		"editorBracketMatch.border": "{accent-color}",
+		"editor.foldBackground": "{window-background-color}",
+		"editorOverviewRuler.background": "{window-background-color}",
+		"editorOverviewRuler.border": "{border-color}",
+		"editorError.foreground": "{error-color}",
+		"editorError.background": "#00000000",
+		"editorError.border": "#00000000",
+		"editorWarning.foreground": "{warning-color}",
+		"editorWarning.background": "#00000000",
+		"editorWarning.border": "#00000000",
+		"editorInfo.foreground": "{info-color}",
+		"editorInfo.background": "#00000000",
+		"editorInfo.border": "#00000000",
+		"editorGutter.background": "{editor-background-color}",
+		"editorGutter.modifiedBackground": "{modified-color}",
+		"editorGutter.addedBackground": "{inserted-color}",
+		"editorGutter.deletedBackground": "{deleted-color}",
+		"editorGutter.foldingControlForeground": "{foreground-color}cc",
+		"editorCodeLens.foreground": "{syntax-comments-color}",
+		"editorGroup.border": "{border-color}",
+		"diffEditor.insertedTextBackground": "{inserted-color}33",
+		"diffEditor.insertedTextBorder": "#00000000",
+		"diffEditor.removedTextBackground": "{deleted-color}33",
+		"diffEditor.removedTextBorder": "#00000000",
+		"diffEditor.border": "#00000000",
+		"panel.background": "{editor-background-color}",
+		"panel.border": "{border-color}",
+		"panelTitle.activeBorder": "{accent-color}",
+		"panelTitle.activeForeground": "{focus-foreground-color}",
+		"panelTitle.inactiveForeground": "{foreground-color}",
+		"badge.background": "{accent-color}",
+		"badge.foreground": "{accent-foreground-color}",
+		"terminal.foreground": "{foreground-color}",
+		"terminal.selectionBackground": "{accent-color}66",
+		"terminalCursor.background": "{accent-color}",
+		"terminalCursor.foreground": "{foreground-color}",
+		"terminal.border": "{border-color}",
+		"terminal.ansiBlack": "{terminal-black}",
+		"terminal.ansiBlue": "{terminal-blue}",
+		"terminal.ansiBrightBlack": "{terminal-black}",
+		"terminal.ansiBrightBlue": "{terminal-blue}",
+		"terminal.ansiBrightCyan": "{terminal-cyan}",
+		"terminal.ansiBrightGreen": "{terminal-green}",
+		"terminal.ansiBrightMagenta": "{terminal-magenta}",
+		"terminal.ansiBrightRed": "{terminal-red}",
+		"terminal.ansiBrightWhite": "{terminal-white}",
+		"terminal.ansiBrightYellow": "{terminal-yellow}",
+		"terminal.ansiCyan": "{terminal-cyan}",
+		"terminal.ansiGreen": "{terminal-green}",
+		"terminal.ansiMagenta": "{terminal-magenta}",
+		"terminal.ansiRed": "{terminal-red}",
+		"terminal.ansiWhite": "{terminal-white}",
+		"terminal.ansiYellow": "{terminal-yellow}",
+		"breadcrumb.background": "{editor-background-color}",
+		"breadcrumb.foreground": "{foreground-color}",
+		"breadcrumb.focusForeground": "{focus-foreground-color}",
+		"editorGroupHeader.border": "{border-color}",
+		"editorGroupHeader.tabsBackground": "{editor-background-color}",
+		"editorGroupHeader.tabsBorder": "{editor-background-color}",
+		"tab.activeForeground": "{foreground-color}",
+		"tab.border": "{border-color}",
+		"tab.activeBackground": "{editor-background-color}",
+		"tab.activeBorder": "#00000000",
+		"tab.activeBorderTop": "{accent-color}",
+		"tab.inactiveBackground": "{window-background-color}",
+		"tab.inactiveForeground": "{foreground-color}cc",
+		"tab.hoverBackground": "{window-background-color}",
+		"tab.hoverForeground": "{foreground-color}",
+		"tab.hoverBorder": "#00000000",
+		"scrollbarSlider.background": "{accent-color}33",
+		"scrollbarSlider.hoverBackground": "{accent-hover-color}33",
+		"scrollbarSlider.activeBackground": "{accent-color}",
+		"progressBar.background": "{accent-color}",
+		"widget.shadow": "#0000005c",
+		"editorWidget.foreground": "{foreground-color}",
+		"editorWidget.background": "{window-background-color}",
+		"editorWidget.resizeBorder": "{accent-color}",
+		"pickerGroup.border": "#00000000",
+		"pickerGroup.foreground": "{foreground-color}",
+		"debugToolBar.background": "{window-background-color}",
+		"debugToolBar.border": "{accent-color}",
+		"notifications.foreground": "{foreground-color}",
+		"notifications.background": "{window-background-color}",
+		"notificationToast.border": "{border-color}",
+		"notificationsErrorIcon.foreground": "{error-color}",
+		"notificationsWarningIcon.foreground": "{warning-color}",
+		"notificationsInfoIcon.foreground": "{info-color}",
+		"notificationCenter.border": "{border-color}",
+		"notificationCenterHeader.foreground": "{foreground-color}",
+		"notificationCenterHeader.background": "{window-background-color}",
+		"notifications.border": "{border-color}",
+		"gitDecoration.addedResourceForeground": "{inserted-color}",
+		"gitDecoration.conflictingResourceForeground": "{error-color}",
+		"gitDecoration.deletedResourceForeground": "{deleted-color}",
+		"gitDecoration.ignoredResourceForeground": "{foreground-color}88",
+		"gitDecoration.modifiedResourceForeground": "{modified-color}",
+		"gitDecoration.stageDeletedResourceForeground": "{deleted-color}",
+		"gitDecoration.stageModifiedResourceForeground": "{modified-color}",
+		"gitDecoration.submoduleResourceForeground": "{info-color}",
+		"gitDecoration.untrackedResourceForeground": "{foreground-color}cc",
+		"editorMarkerNavigation.background": "{window-background-color}",
+		"editorMarkerNavigationError.background": "{error-color}",
+		"editorMarkerNavigationWarning.background": "{warning-color}",
+		"editorMarkerNavigationInfo.background": "{info-color}",
+		"merge.currentHeaderBackground": "{modified-color}",
+		"merge.currentContentBackground": "{modified-color}",
+		"merge.incomingHeaderBackground": "{inserted-color}",
+		"merge.incomingContentBackground": "{inserted-color}",
+		"merge.commonHeaderBackground": "{window-background-color}",
+		"merge.commonContentBackground": "{window-background-color}",
+		"editorSuggestWidget.background": "{window-background-color}",
+		"editorSuggestWidget.border": "{accent-color}",
+		"editorSuggestWidget.foreground": "{foreground-color}",
+		"editorSuggestWidget.highlightForeground": "{focus-foreground-color}",
+		"editorSuggestWidget.selectedBackground": "{accent-color}66",
+		"editorHoverWidget.foreground": "{foreground-color}",
+		"editorHoverWidget.background": "{window-background-color}",
+		"editorHoverWidget.border": "{accent-color}",
+		"peekView.border": "{accent-color}",
+		"peekViewEditor.background": "{editor-background-color}",
+		"peekViewEditorGutter.background": "{window-background-color}",
+		"peekViewEditor.matchHighlightBackground": "{accent-color}66",
+		"peekViewEditor.matchHighlightBorder": "{accent-color}",
+		"peekViewResult.background": "{window-background-color}",
+		"peekViewResult.fileForeground": "{foreground-color}",
+		"peekViewResult.lineForeground": "{foreground-color}",
+		"peekViewResult.matchHighlightBackground": "{accent-color}66",
+		"peekViewResult.selectionBackground": "{accent-color}66",
+		"peekViewResult.selectionForeground": "{foreground-color}",
+		"peekViewTitle.background": "{window-background-color}",
+		"peekViewTitleDescription.foreground": "{foreground-color}cc",
+		"peekViewTitleLabel.foreground": "{foreground-color}",
+		"icon.foreground": "{foreground-color}",
+		"checkbox.background": "{window-background-color}",
+		"checkbox.foreground": "{foreground-color}",
+		"checkbox.border": "{accent-color}",
+		"dropdown.background": "{window-background-color}",
+		"dropdown.foreground": "{foreground-color}",
+		"dropdown.border": "{accent-color}",
+		"minimapGutter.addedBackground": "{inserted-color}",
+		"minimapGutter.modifiedBackground": "{modified-color}",
+		"minimapGutter.deletedBackground": "{deleted-color}",
+		"minimap.findMatchHighlight": "{accent-color}66",
+		"minimap.selectionHighlight": "{accent-color}66",
+		"minimap.errorHighlight": "{error-color}",
+		"minimap.warningHighlight": "{warning-color}",
+		"minimap.background": "{editor-background-color}",
+		"sideBar.dropBackground": "{accent-color}66",
+		"editorGroup.emptyBackground": "{editor-background-color}",
+		"panelSection.border": "{border-color}",
+		"statusBarItem.activeBackground": "{accent-color}",
+		"settings.headerForeground": "{foreground-color}",
+		"settings.focusedRowBackground": "{accent-color}66",
+		"walkThrough.embeddedEditorBackground": "{window-background-color}",
+		"breadcrumb.activeSelectionForeground": "{focus-foreground-color}",
+		"editorGutter.commentRangeForeground": "{foreground-color}cc",
+		"debugExceptionWidget.background": "{window-background-color}",
+		"debugExceptionWidget.border": "{accent-color}",
+
+		"editorBracketHighlight.foreground1": "{syntax-classes-color}",
+		"editorBracketHighlight.foreground2": "{syntax-methods-color}",
+		"editorBracketHighlight.foreground3": "{syntax-keywords-color}",
+		"editorBracketHighlight.foreground4": "{syntax-variables-color}",
+		"editorBracketHighlight.foreground5": "{syntax-strings-color}",
+		"editorBracketHighlight.foreground6": "{syntax-interfaces-color}",
+		"editorBracketHighlight.unexpectedBracket.foreground": "{error-color}"
+	},
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"class": "{syntax-classes-color}",
+		"comment": "{syntax-comments-color}",
+		"constant": "{syntax-constants-color}",
+		"controlKeyword": "{syntax-keywords-color}",
+		"decorator": "{syntax-operators-color}",
+		"delegate": "{syntax-interfaces-color}",
+		"enum": "{syntax-interfaces-color}",
+		"enumMember": "{syntax-fields-color}",
+		"event": "{syntax-fields-color}",
+		"excludedCode": "{syntax-comments-color}",
+		"extensionMethod": "{syntax-methods-color}",
+		"field": "{syntax-fields-color}",
+		"function": "{syntax-methods-color}",
+		"interface": "{syntax-interfaces-color}",
+		"keyword": "{syntax-keywords-color}",
+		"label": "{syntax-keywords-color}",
+		"macro": "{syntax-operators-color}",
+		"markupAttribute": "{syntax-variables-color}",
+		"markupComment": "{syntax-comments-color}",
+		"markupCommentPunctuation": "{syntax-comments-color}",
+		"markupElement": "{syntax-interfaces-color}",
+		"markupOperator": "{syntax-operators-color}",
+		"markupTagDelimiter": "{syntax-interfaces-color}",
+		"method": "{syntax-methods-color}",
+		"module": "{syntax-interfaces-color}",
+		"namespace": "{syntax-classes-color}",
+		"number": "{syntax-constants-color}",
+		"operator": "{syntax-operators-color}",
+		"operatorOverloaded": "{syntax-operators-color}",
+		"parameter": "{syntax-variables-color}",
+		"preprocessorText": "{syntax-text-color}",
+		"property": "{syntax-fields-color}",
+		"punctuation": "{syntax-operators-color}",
+		"razorComment": "{syntax-comments-color}",
+		"razorComponentAttribute": "{syntax-variables-color}",
+		"razorComponentElement": "{syntax-classes-color}",
+		"razorDirective": "{syntax-keywords-color}",
+		"razorDirectiveAttribute": "{syntax-keywords-color}",
+		"razorDirectiveColon": "{syntax-operators-color}",
+		"razorTagHelperAttribute": "{syntax-variables-color}",
+		"razorTagHelperElement": "{syntax-classes-color}",
+		"razorTransition": "{syntax-keywords-color}",
+		"recordClass": "{syntax-interfaces-color}",
+		"recordStruct": "{syntax-interfaces-color}",
+		"regexAlternation": "{syntax-operators-color}",
+		"regexAnchor": "{syntax-methods-color}",
+		"regexCharacterClass": "{syntax-classes-color}",
+		"regexComment": "{syntax-comments-color}",
+		"regexGrouping": "{syntax-variables-color}",
+		"regexOtherEscape": "{syntax-operators-color}",
+		"regexp": "{syntax-strings-color}",
+		"regexQuantifier": "{syntax-constants-color}",
+		"regexSelfEscapedCharacter": "{syntax-operators-color}",
+		"regexText": "{syntax-strings-color}",
+		"string": "{syntax-strings-color}",
+		"stringEscapeCharacter": "{syntax-operators-color}",
+		"stringVerbatim": "{syntax-strings-color}",
+		"struct": "{syntax-interfaces-color}",
+		"text": "{syntax-text-color}",
+		"type": "{syntax-classes-color}",
+		"typeParameter": "{syntax-variables-color}",
+		"variable": "{syntax-variables-color}",
+		"whitespace": "{syntax-comments-color}",
+		"xmlDocCommentAttributeName": {
+			"foreground": "{syntax-keywords-color}",
+			"italic": true
+		},
+		"xmlDocCommentAttributeQuotes": {
+			"foreground": "{syntax-strings-color}",
+			"italic": true
+		},
+		"xmlDocCommentAttributeValue": {
+			"foreground": "{syntax-strings-color}",
+			"italic": true
+		},
+		"xmlDocCommentCDataSection": {
+			"foreground": "{syntax-constants-color}",
+			"italic": true
+		},
+		"xmlDocCommentComment": {
+			"foreground": "{syntax-comments-color}",
+			"italic": true
+		},
+		"xmlDocCommentDelimiter": {
+			"foreground": "{syntax-comments-color}",
+			"italic": true
+		},
+		"xmlDocCommentEntityReference": {
+			"foreground": "{syntax-text-color}",
+			"italic": true
+		},
+		"xmlDocCommentName": {
+			"foreground": "{syntax-comments-color}",
+			"italic": true
+		},
+		"xmlDocCommentProcessingInstruction": {
+			"foreground": "{syntax-operators-color}",
+			"italic": true
+		},
+		"xmlDocCommentText": {
+			"foreground": "{syntax-strings-color}",
+			"italic": true
+		},
+		"xmlLiteralAttributeName": "{syntax-variables-color}",
+		"xmlLiteralAttributeQuotes": "{syntax-strings-color}",
+		"xmlLiteralAttributeValue": "{syntax-strings-color}",
+		"xmlLiteralCDataSection": "{syntax-constants-color}",
+		"xmlLiteralComment": "{syntax-comments-color}",
+		"xmlLiteralDelimiter": "{syntax-operators-color}",
+		"xmlLiteralEmbeddedExpression": "{syntax-operators-color}",
+		"xmlLiteralEntityReference": "{syntax-text-color}",
+		"xmlLiteralName": "{syntax-text-color}",
+		"xmlLiteralProcessingInstruction": "{syntax-operators-color}",
+		"xmlLiteralText": "{syntax-strings-color}"
+	},
+	"tokenColors": [
+		{
+			"scope": [
+				"support.type.property-name",
+				"punctuation.support.type.property-name.begin",
+				"punctuation.support.type.property-name.end"
+			],
+			"settings": {
+				"foreground": "{syntax-variables-color}"
+			}
+		},
+		{
+			"scope": [
+				"keyword",
+				"keyword.operator.new",
+				"storage",
+				"punctuation.definition.keyword"
+			],
+			"settings": {
+				"foreground": "{syntax-keywords-color}"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator",
+				"punctuation",
+				"meta.selector.pseudo-class"
+			],
+			"settings": {
+				"foreground": "{syntax-operators-color}"
+			}
+		},
+		{
+			"scope": [
+				"constant" ],
+			"settings": {
+				"foreground": "{syntax-constants-color}"
+			}
+		},
+		{
+			"scope": [
+				"string",
+				"punctuation.definition.string",
+				"string.other.link.title.markdown"
+			],
+			"settings": {
+				"foreground": "{syntax-strings-color}"
+			}
+		},
+		{
+			"scope": [
+				"comment",
+				"punctuation.definition.comment",
+				"markup.fenced_code.block.markdown"
+			],
+			"settings": {
+				"foreground": "{syntax-comments-color}"
+			}
+		},
+		{
+			"scope": [
+				"meta.selector",
+				"entity.other.attribute-name",
+				"punctuation.definition.entity"
+			],
+			"settings": {
+				"foreground": "{syntax-classes-color}"
+			}
+		},
+		{
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "{syntax-interfaces-color}"
+			}
+		},
+		{
+			"scope": [
+				"meta.function"
+			],
+			"settings": {
+				"foreground": "{syntax-methods-color}"
+			}
+		},
+		{
+			"scope": "markup.italic.markdown",
+			"settings": {
+				"foreground": "{syntax-strings-color}",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "markup.strikethrough.markdown",
+			"settings": {
+				"foreground": "{syntax-variables-color}",
+				"fontStyle": "strikethrough"
+			}
+		},
+		{
+			"scope": "markup.underline.link",
+			"settings": {
+				"foreground": "{syntax-methods-color}",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"scope": "markup.bold.markdown",
+			"settings": {
+				"foreground": "{syntax-interfaces-color}",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"markup.heading.markdown",
+				"meta.separator.markdown"
+			],
+			"settings": {
+				"foreground": "{syntax-interfaces-color}",
+				"fontStyle": "bold"
+			}
+		}
+	]
+}

@@ -1,0 +1,175 @@
+{
+	"type": "object",
+	"properties": {
+		"type": {
+			"description": "",
+			"enum": [ "dark", "light" ]
+		},
+		"editor-background-color": {
+			"description": "The background color of the editor and other interactive elements",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"window-background-color": {
+			"description": "The background color of the rest window like the activity, status and title bars",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"border-color": {
+			"description": "The color of the border between elements",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"foreground-color": {
+			"description": "The default foreground color",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"accent-color": {
+			"description": "Accent color used as a background for badges, primary buttons, highlights, etc.",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"accent-hover-color": {
+			"description": "Color used when hovering over elements colored in the accent color",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"accent-foreground-color": {
+			"description": "Foreground color for elements with accent color background",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"inserted-color": {
+			"description": "Color that indicates inserted or added files, resources or lines of code",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"modified-color": {
+			"description": "Color that indicates updated or modified files, resources or lines of code",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"deleted-color": {
+			"description": "Color that indicates deleted or removed files, resources or lines of code",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"focus-foreground-color": {
+			"description": "Foreground color used mainly for autocompletion highlight",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"info-color": {
+			"description": "A color for indicating informational messages",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"warning-color": {
+			"description": "A color for indicating warning messages",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"error-color": {
+			"description": "A color for indicating error messages",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"syntax-classes-color": {
+			"description": "A color used syntax highlighting of classes",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"syntax-comments-color": {
+			"description": "A color used syntax highlighting of comments",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"syntax-constants-color": {
+			"description": "A color used syntax highlighting of constants and literals",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"syntax-fields-color": {
+			"description": "A color used syntax highlighting of fields and properties",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"syntax-interfaces-color": {
+			"description": "A color used syntax highlighting of interfaces, structures, enumerations and other",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"syntax-keywords-color": {
+			"description": "A color used syntax highlighting of keywords",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"syntax-methods-color": {
+			"description": "A color used syntax highlighting of methods and functions",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"syntax-operators-color": {
+			"description": "A color used syntax highlighting of operators and punctuation",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"syntax-strings-color": {
+			"description": "A color used syntax highlighting of string literals",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"syntax-text-color": {
+			"description": "Default color for unknown syntax elements",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"syntax-variables-color": {
+			"description": "A color used syntax highlighting of variables and arguments",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"terminal-black": {
+			"description": "The black color in the terminal",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"terminal-red": {
+			"description": "The red color in the terminal",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"terminal-green": {
+			"description": "The green color in the terminal",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"terminal-blue": {
+			"description": "The blue color in the terminal",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"terminal-yellow": {
+			"description": "The yellow color in the terminal",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"terminal-magenta": {
+			"description": "The magenta color in the terminal",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"terminal-cyan": {
+			"description": "The cyan color int the terminal",
+			"type": "string",
+			"format": "color-hex"
+		},
+		"terminal-white": {
+			"description": "The white color in the terminal",
+			"type": "string",
+			"format": "color-hex"
+		}
+	},
+	"required": [ "name", "type", "editor-background-color", "window-background-color", "border-color", "foreground-color", "accent-color", "accent-hover-color", "accent-foreground-color", "inserted-color", "modified-color", "deleted-color", "focus-foreground-color", "info-color", "warning-color", "error-color", "syntax-classes-color", "syntax-comments-color", "syntax-constants-color", "syntax-fields-color", "syntax-interfaces-color", "syntax-keywords-color", "syntax-methods-color", "syntax-operators-color", "syntax-strings-color", "syntax-text-color", "syntax-variables-color", "terminal-black", "terminal-red", "terminal-green", "terminal-blue", "terminal-yellow", "terminal-magenta", "terminal-cyan", "terminal-white" ]
+}
