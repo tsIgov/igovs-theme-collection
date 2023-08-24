@@ -4,17 +4,17 @@ on:
       - main
 name: Deploy Extension
 jobs:
-  deploy:
+  publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: checkout
         uses: actions/checkout@v2
-      - name: Build
-        run: build.sh
+      - name: build
+        run: ./build.sh
         shell: bash
       - name: npm install
         run: npm install
-      - name: Publish
+      - name: publish
         uses: lannonbr/vsce-action@3.0.0
         with:
           args: "publish -p $VSCE_TOKEN"
