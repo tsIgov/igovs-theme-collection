@@ -2,6 +2,7 @@ for file in ./skins/*;
 do 
 	filename=$(basename -- "$file")
 	dest="./output/$filename"
+	mkdir -p ./output
 	cp -f "./template.json" $dest
 
 	keys=$(jq -r 'keys[]' $file)
