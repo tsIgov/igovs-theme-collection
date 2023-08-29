@@ -1,0 +1,46 @@
+{
+	"$schema": "../schema.json",
+	"name": "Byteology - Amy",
+	"type": "dark",
+
+	"editor-background-color": "#1E2131",
+	"window-background-color": "#222638",
+	"border-color": "#5980C366",
+	"foreground-color": "#E2E8F3",
+
+	"accent-color": "#5980C3",
+	"accent-hover-color": "#80A1DA",
+	"accent-foreground-color": "#E2E8F3",
+
+	"inserted-color": "#00D199",
+	"modified-color": "#E4A93F",
+	"deleted-color": "#F96472",
+
+	"focus-foreground-color": "#5980c3",
+
+	"info-color": "#00D199",
+	"warning-color": "#E4A93F",
+	"error-color": "#F96472",
+
+	"syntax-classes-color": "#FFE266",
+	"syntax-comments-color": "#5980C3",
+	"syntax-constants-color": "#54DCB6",
+	"syntax-fields-color": "#E2E8F3",
+	"syntax-interfaces-color": "#E4A93F",
+	"syntax-keywords-color": "#9585DD",
+	"syntax-methods-color": "#00D199",
+	"syntax-operators-color": "#9585DD",
+	"syntax-strings-color": "#5DF38A",
+	"syntax-text-color": "#E2E8F3",
+	"syntax-variables-color": "#E57EC1",
+
+	"terminal-black": "#3B3F53",
+	"terminal-red": "#F96472",
+	"terminal-green": "#00D199",
+	"terminal-blue": "#5980C3",
+	"terminal-yellow": "#FFE266",
+	"terminal-magenta": "#E57EC1",
+	"terminal-cyan": "#54DCB6",
+	"terminal-white": "#E2E8F3"
+
+}

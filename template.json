@@ -393,6 +393,7 @@
 	"tokenColors": [
 		{
 			"scope": [
+				"entity.other.attribute-name.html",
 				"support.type.property-name",
 				"punctuation.support.type.property-name.begin",
 				"punctuation.support.type.property-name.end"
@@ -416,7 +417,8 @@
 			"scope": [
 				"keyword.operator",
 				"punctuation",
-				"meta.selector.pseudo-class"
+				"meta.selector.pseudo-class",
+				"entity.other.attribute-name.pseudo-class"
 			],
 			"settings": {
 				"foreground": "{syntax-operators-color}"
@@ -424,7 +426,8 @@
 		},
 		{
 			"scope": [
-				"constant" ],
+				"constant"
+			],
 			"settings": {
 				"foreground": "{syntax-constants-color}"
 			}
@@ -433,7 +436,8 @@
 			"scope": [
 				"string",
 				"punctuation.definition.string",
-				"string.other.link.title.markdown"
+				"string.other.link.title.markdown",
+				"meta.at-rule.apply.tailwind"
 			],
 			"settings": {
 				"foreground": "{syntax-strings-color}"
@@ -452,7 +456,6 @@
 		{
 			"scope": [
 				"meta.selector",
-				"entity.other.attribute-name",
 				"punctuation.definition.entity"
 			],
 			"settings": {
